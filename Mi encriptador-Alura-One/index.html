@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="Style.css">
+            <title>Encriptador de Alejandro</title>
+
+        </head>
+        <body>
+            <header>
+                <h1><img src="Vector.png"></h1>
+                <h1>Encriptador</h1>
+                
+            </header>
+            <main class="main">
+                <div class="container">
+                    <p>Ingrese un texto a encriptar usando solo letras minusculas y sin tildes.</p>
+                </div>
+                <form>
+                    <div class="text-caja1">
+                    <label for="input-text">Ingrese el texto aqui</label>
+                    <textarea name="input-text" id="input-text" cols="30" rows="10" class="form-control" style="resize: none" spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Encriptar" id="boton-encriptar" class="btn btn-primary btn-sm">      
+                    <br>      
+                    <input type="button" value="Desencriptar" id="boton-desencriptar" class="btn btn-primary btn-sm">  
+                </div>                
+            </form>                                              
+            <form>
+                <div class="text-caja2">
+                    <label for="input-text">Texto encriptado / desencriptado</label>
+                    <textarea name="encrypted-text" id="encrypted-text" cols="30" rows="10" class="form-control" style="resize: none" spellcheck="false"></textarea>
+                    <br>
+                    <input type="button" value="Copiar texto" id="boton-copiar" class="btn btn-primary btn-sm">
+                </div>                    
+            </form>
+            
+        </div>    
+    </main>
+    
+    <script src="java.js"></script>
+    <footer>
+        <h2>Alejandro Aguila Almanza-2023</h2>
+        <h2>LordAguila</h2>
+    </footer>
+</body>
+
+</html>
